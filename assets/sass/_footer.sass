@@ -1,0 +1,40 @@
+.footer
+  background-color: #343434
+  padding: 41px 0 35px
+
+.footer_box
+  display: flex
+  justify-content: space-between
+  align-items: center
+  max-width: 1145px
+  margin: 0 auto
+
+.footer_text
+  color: #ffffff
+  font-size: 12px
+  font-weight: 700
+  text-transform: uppercase
+  padding: 0 5px
+
+.footer_links
+  display: flex
+  align-items: center
+
+.footer_links a
+  text-decoration: none
+  color: #fe504f
+  padding: 5px 5px 5px 5px
+
+  &:hover
+    color: #ffffff
+
+.footer_link:after
+  content: ""
+  border-right: 1px solid #fe504f
+  width: 20px
+  padding-right: 14px
+
+@media screen and (max-width: 424px)
+  .footer_box
+    flex-wrap: wrap
+    justify-content: center

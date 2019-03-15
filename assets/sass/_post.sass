@@ -1,0 +1,190 @@
+.post_main_title_section
+  background: #28303e url(../img/post/post_bg.png) 50% 50% no-repeat
+  background-size: cover
+  min-width: 100%
+
+.post_box
+  max-width: 1200px
+  margin: 0 auto
+  padding-top: 105px
+
+.post_image_box
+  background: #28303e url(../img/post/main_img.png) 50% 50% no-repeat
+  background-size: cover
+  min-width: 100%
+  height: 500px
+  padding-top: 381px
+
+.post_image_box_title-box
+  position: relative
+  background: #343434
+  width: 491px
+  height: 119px
+  padding: 30px
+
+.post_image_box_title-box:after
+  bottom: 100%
+  left: 15%
+  border: solid transparent
+  content: " "
+  height: 0
+  width: 0
+  position: absolute
+  pointer-events: none
+  border-color: rgba(52, 52, 52, 0)
+  border-bottom-color: #343434
+  border-width: 30px
+  margin-left: -30px
+
+.post_image_box_title
+  color: #fe504f
+  font-family: 'Montserrat', sans-serif
+  font-size: 20px
+  font-weight: 700
+  line-height: 26px
+  text-transform: uppercase
+  padding-bottom: 10px
+
+.post_text_box
+  max-width: 1102px
+  margin: 0 auto
+  padding: 47px 0
+
+.post_text_box_text
+  color: #343434
+  font-family: 'Montserrat', sans-serif
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+  padding: 0 5px
+
+.post_text_box_title
+  color: #343434
+  font-family: 'Montserrat', sans-serif
+  font-size: 18px
+  font-weight: 400
+  padding: 40px 0 28px
+
+.post_comment_box
+  max-width: 1100px
+  margin: 0 auto
+  padding-bottom: 80px
+
+.post_comment_box_title
+  color: #000000
+  font-family: 'Montserrat', sans-serif
+  font-size: 18px
+  font-weight: 400
+  border-bottom: 3px solid #fe504f
+  width: 110px
+
+.post_comment_box_form
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 30px 5px
+
+.post_comment_box_comment
+  width: 927px
+  height: 40px
+  border: 2px solid #aeaeae
+  background-color: #f0f2f6
+  padding: 18px
+
+.post_comment_box_button
+  color: #fd6041
+  font-family: 'Montserrat', sans-serif
+  font-size: 12px
+  font-weight: 400
+  text-transform: uppercase
+  background-color: #343434
+  border: none
+  padding: 13px 14px
+  outline: none
+
+  &:hover
+    color: #343434
+    background-color: #fd6041
+
+.post_comment_container
+  display: flex
+  align-items: flex-start
+  padding: 25px 5px
+
+.post_comment_box_cont
+  padding-left: 14px
+
+.post_comment_container_name
+  color: #000000
+  font-family: 'Montserrat', sans-serif
+  font-size: 14px
+  font-weight: 700
+  padding-bottom: 18px
+
+.post_comment_container_name a
+  text-decoration: none
+  color: #000000
+  font-family: 'Montserrat', sans-serif
+  font-size: 14px
+  font-weight: 700
+
+  &:hover
+    color: #fd6041
+
+.post_comment_container_text
+  color: #8d8d8d
+  font-family: 'Montserrat', sans-serif
+  font-size: 14px
+  font-weight: 400
+  line-height: 20px
+
+.second_lvl_comment
+  padding-left: 64px
+
+.third_lvl_comment
+  padding-left: 130px
+
+@media screen and (max-width: 1200px)
+  .post_comment_box_comment
+    width: 800px
+
+  .post_comment_box_form
+    justify-content: flex-start
+
+  .post_comment_box_button
+    margin-left: 20px
+
+@media screen and (max-width: 1100px)
+  .post_comment_box_comment
+    width: 700px
+
+@media screen and (max-width: 900px)
+  .post_comment_box_comment
+    width: 500px
+
+  .post_comment_box_button
+    font-size: 10px
+
+@media screen and (max-width: 700px)
+  .post_comment_box_comment
+    width: 200px
+
+@media screen and (max-width: 500px)
+  .post_image_box_title-box
+    width: 100%
+    height: 119px
+    padding: 30px
+
+  .post_image_box_title
+    font-size: 17px
+
+@media screen and (max-width: 376px)
+  .second_lvl_comment
+    padding-left: 44px
+
+  .third_lvl_comment
+    padding-left: 80px
+
+@media screen and (max-width: 374px)
+  .post_comment_box_comment
+    width: 150px
